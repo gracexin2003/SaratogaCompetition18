@@ -1,9 +1,9 @@
-package SaratogaCompetition18.saratoga;
+package SaratogaCompetition18;
 
 import java.util.*;
 
 @SuppressWarnings("resource")
-class NB {
+class NJAD {
 
 	public static void main(String[] args) {
 		

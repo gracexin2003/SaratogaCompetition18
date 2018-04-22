@@ -1,4 +1,4 @@
-package SaratogaCompetition18.saratoga;
+package SaratogaCompetition18;
 
 import java.util.*;
 

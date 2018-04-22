@@ -1,15 +1,14 @@
-package SaratogaCompetition18.saratoga;
+package SaratogaCompetition18;
 
 import java.util.*;
 
 @SuppressWarnings("resource")
-public class addition {
+class NE {
 
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);
-		int a = s.nextInt(), b = s.nextInt();
-		System.out.println(a+b);
+		
 		
 	}
 	
