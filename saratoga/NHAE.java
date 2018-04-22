@@ -1,10 +1,13 @@
-package saratoga;
+package SaratogaCompetition18.saratoga;
 
+import java.util.*;
+
+@SuppressWarnings("resource")
 class NHAE {
 
 	public static void main(String[] args) {
 		
-		System.out.println(4);
+		Scanner s = new Scanner(System.in);
 		
 	}
 	

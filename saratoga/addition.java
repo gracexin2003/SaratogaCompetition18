@@ -1,7 +1,8 @@
-package saratoga;
+package SaratogaCompetition18.saratoga;
 
 import java.util.*;
 
+@SuppressWarnings("resource")
 public class addition {
 
 	public static void main(String[] args) {

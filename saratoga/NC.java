@@ -1,13 +1,16 @@
-package saratoga;
+package SaratogaCompetition18.saratoga;
 
 import java.util.*;
 
+@SuppressWarnings("resource")
 class NC {
 
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);
-		int M = s.nextInt(), X = s.nextInt(), N = s.nextInt();
+		s.nextInt(); 
+		int X = s.nextInt();
+		s.nextLine();
 		String str = s.nextLine();
 		char[] pattern = str.trim().toCharArray();
 		int Cs = 0, Ms = 0;

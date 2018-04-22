@@ -1,7 +1,8 @@
-package saratoga;
+package SaratogaCompetition18.saratoga;
 
-import java.util.Scanner;
+import java.util.*;
 
+@SuppressWarnings("resource")
 public class NAAA {
 
 	static int[][] arr;

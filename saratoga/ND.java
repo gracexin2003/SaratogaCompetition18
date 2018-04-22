@@ -1,7 +1,8 @@
-package saratoga;
+package SaratogaCompetition18.saratoga;
 
 import java.util.*;
 
+@SuppressWarnings("resource")
 class ND {
 	
 	static int[][] spheres;
@@ -9,14 +10,6 @@ class ND {
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);
-		System.out.println("5 7");
-		/*int N = s.nextInt();
-		spheres = new int[N][2];
-		for(int i = 0; i < N; i++) {
-			spheres[i][0] = s.nextInt();
-			spheres[i][1] = s.nextInt();
-		}*/
-		
 		
 	}
 	
