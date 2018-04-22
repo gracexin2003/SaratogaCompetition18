@@ -29,17 +29,9 @@ public class NAAA {
 	
 	public static int subtract(int sum) {
 		for(int i = 0; i < arr.length; i++) //check down
-			for(int j = 1; j < arr[0].length; j++) {
-				//System.out.println(i + " " + j + " " + Math.min(arr[i][j], arr[i][j-1]));
-				//System.out.println(arr[i][j] + " " + arr[i][j-1]);
-				sum -= Math.min(arr[i][j], arr[i][j-1])*2;
-			}
+			for(int j = 1; j < arr[0].length; j++) sum -= Math.min(arr[i][j], arr[i][j-1])*2;
 		for(int i = 1; i < arr.length; i++) //check across
-			for(int j = 0; j < arr[0].length; j++) {
-				//System.out.println(i + " " + j + " " + Math.min(arr[i][j], arr[i-1][j]));
-				//System.out.println(arr[i][j] + " " + arr[i-1][j]);
-				sum -= Math.min(arr[i][j], arr[i-1][j])*2;
-			}
+			for(int j = 0; j < arr[0].length; j++) sum -= Math.min(arr[i][j], arr[i-1][j])*2;
 		return sum;
 	}
 	

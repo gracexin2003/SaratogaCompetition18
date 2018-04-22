@@ -40,6 +40,3 @@ class NIAC {
 	}
 	
 }
-
-
-// level 11 Koffing, level 15 Litwick, level 10 Magnemite, level 23 Sawsbuck, level 11 Blitzle, level 10 Sunkern, level 22 Malamar, level 7 GOthita
