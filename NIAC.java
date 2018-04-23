@@ -15,16 +15,16 @@ class NIAC {
 		s.nextLine();
 		grid = new char[M][N];
 		for(int i = 0; i < M; i++) grid[i] = s.nextLine().trim().toCharArray();
-		int ans = 0, maxI = 0;
+		int maxScore = 0, maxRow = 0;
 		for(int i = 0; i < M; i++) {
 			count = 0;
 			move(i, 0, i);
-			if(count>ans) {
-				ans = count;
-				maxI = i;
+			if(count>maxScore) {
+				maxScore = count;
+				maxRow = i;
 			}
 		}
-		System.out.println(ans + " " + (maxI+1));
+		System.out.println(maxScore + " " + (maxRow+1));
 		
 	}
 	
