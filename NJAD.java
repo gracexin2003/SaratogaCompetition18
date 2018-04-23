@@ -23,9 +23,12 @@ class NJAD {
 			if(count1 == 1 || count2 == 1 || count1 == N || count2 == N) {
 				System.out.println("RI");
 				return;
+			}if(count1 == 2 || count2 == 2) {
+				System.out.println("FLOWER");
+				return;
 			}
 		}
-		
+		System.out.println("TIE");
 	}
 	
 }
