@@ -2,7 +2,7 @@ package SaratogaCompetition18;
 
 import java.util.*;
 
-@SuppressWarnings("resource")
+@SuppressWarnings({"resource", "unused"})
 class NB {
 
 	public static void main(String[] args) {

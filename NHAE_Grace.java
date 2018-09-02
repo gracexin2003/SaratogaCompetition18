@@ -3,7 +3,7 @@ package SaratogaCompetition18;
 import java.util.*;
 
 @SuppressWarnings("resource")
-class NHAE {
+class NHAE_Grace {
 
 	static int N;
 	static class Object {

@@ -3,7 +3,7 @@ package SaratogaCompetition18;
 import java.util.*;
 
 @SuppressWarnings("resource")
-public class NKAF {
+public class NKAF_Grace {
 	
 	static HashMap<Integer, ArrayList<Integer>> name = new HashMap<Integer, ArrayList<Integer>>();
 	

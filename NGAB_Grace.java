@@ -2,8 +2,8 @@ package SaratogaCompetition18;
 
 import java.util.*;
 
-@SuppressWarnings("resource")
-class NGAB {
+@SuppressWarnings({"resource", "unused"})
+class NGAB_Grace {
 
 	public static void main(String[] args) {
 		
