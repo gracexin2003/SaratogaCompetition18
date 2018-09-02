@@ -1,3 +1,5 @@
+package SaratogaCompetition18;
+
 import java.util.*;
 public class H {
 	static int[] w;
