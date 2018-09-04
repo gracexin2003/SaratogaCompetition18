@@ -1,7 +1,10 @@
 package SaratogaCompetition18;
 
 import java.util.*;
+
+@SuppressWarnings("resource")
 public class H {
+	
 	static int[] w;
 	static List[] connect;
 	static boolean[] v;
@@ -11,7 +14,9 @@ public class H {
 	}
 	
 	public static void main(String[] args){
-		Scanner s;
+		Scanner s = new Scanner(System.in);
+		int N = s.nextInt();
+		connect = new List[N];
 	}
 	
 	public static ArrayList<Integer> weights (int n){
